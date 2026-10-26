@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: matej-glustik/zrno-web   
+  repo: matejglustik/zrno-web   
   branch: main
 media_folder: images/uploads
 public_folder: /images/uploads
