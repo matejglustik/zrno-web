@@ -1,0 +1,69 @@
+{
+  "categories": [
+    {
+      "name": "Espresso",
+      "items": [
+        {
+          "name": "Espresso",
+          "note": "Etiópia, kandizované ovocie",
+          "price": 2.2
+        },
+        {
+          "name": "Flat white",
+          "note": "Dvojitý ristretto, hodvábne mlieko",
+          "price": 3.8
+        },
+        {
+          "name": "Cappuccino",
+          "note": "Klasika s hustou penou",
+          "price": 3.5
+        },
+        {
+          "name": "Cortado",
+          "note": "Rovnaký diel kávy a mlieka",
+          "price": 3.4
+        }
+      ]
+    },
+    {
+      "name": "Filter",
+      "items": [
+        {
+          "name": "V60 Etiópia",
+          "note": "Jazmín, broskyňa, čaj",
+          "price": 4.8
+        },
+        {
+          "name": "Aeropress Kolumbia",
+          "note": "Karamel, červené jablko",
+          "price": 4.5
+        },
+        {
+          "name": "Cold brew",
+          "note": "Dvadsaťštyri hodín za studena",
+          "price": 4.2
+        }
+      ]
+    },
+    {
+      "name": "Dezerty",
+      "items": [
+        {
+          "name": "Croissant",
+          "note": "Maslový, pečený denne",
+          "price": 2.6
+        },
+        {
+          "name": "Banánový chlebík",
+          "note": "S vlašskými orechmi",
+          "price": 3.4
+        },
+        {
+          "name": "Cheesecake",
+          "note": "S lesným ovocím",
+          "price": 4.8
+        }
+      ]
+    }
+  ]
+}

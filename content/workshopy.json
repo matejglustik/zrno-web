@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "name": "Domáce espresso",
+      "duration": "2 h",
+      "price": 39
+    },
+    {
+      "name": "Latte art",
+      "duration": "2 h",
+      "price": 39
+    },
+    {
+      "name": "Filtrovaná káva",
+      "duration": "90 min",
+      "price": 35
+    }
+  ]
+}

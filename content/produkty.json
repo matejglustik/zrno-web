@@ -1,0 +1,46 @@
+{
+  "items": [
+    {
+      "name": "Etiópia Guji",
+      "notes": [
+        "jahody",
+        "jazmín",
+        "čierny čaj"
+      ],
+      "price_250": 13.9,
+      "price_1kg": 46,
+      "color": "#b4503a"
+    },
+    {
+      "name": "Kolumbia Huila",
+      "notes": [
+        "karamel",
+        "červené jablko",
+        "kakao"
+      ],
+      "price_250": 12.5,
+      "price_1kg": 41,
+      "color": "#8a5a2b"
+    },
+    {
+      "name": "Brazília Cerrado",
+      "notes": [
+        "čokoláda",
+        "lieskový orech"
+      ],
+      "price_250": 10.9,
+      "price_1kg": 36,
+      "color": "#6b4426"
+    },
+    {
+      "name": "Zrno Blend No. 1",
+      "notes": [
+        "horká čokoláda",
+        "pomaranč"
+      ],
+      "price_250": 11.9,
+      "price_1kg": 39,
+      "color": "#a0663a"
+    }
+  ]
+}

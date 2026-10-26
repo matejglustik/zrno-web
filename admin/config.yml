@@ -1,0 +1,64 @@
+backend:
+  name: github
+  repo: matej-glustik/zrno-web   
+  branch: main
+media_folder: images/uploads
+public_folder: /images/uploads
+collections:
+  - name: obsah
+    label: Obsah stránky
+    files:
+      - label: Káva (obchod)
+        name: produkty
+        file: content/produkty.json
+        fields:
+          - label: Produkty
+            name: items
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - {label: Názov, name: name, widget: string}
+              - {label: Chuťové tóny, name: notes, widget: list, field: {label: Tón, name: tone, widget: string}}
+              - {label: Cena 250 g v eurách, name: price_250, widget: number, value_type: float, step: 0.1}
+              - {label: Cena 1 kg v eurách, name: price_1kg, widget: number, value_type: float, step: 0.1}
+              - {label: Farba zrna, name: color, widget: color}
+      - label: Menu kaviarne
+        name: menu
+        file: content/menu.json
+        fields:
+          - label: Kategórie
+            name: categories
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - {label: Názov kategórie, name: name, widget: string}
+              - label: Položky
+                name: items
+                widget: list
+                summary: "{{fields.name}}"
+                fields:
+                  - {label: Názov, name: name, widget: string}
+                  - {label: Popis, name: note, widget: string}
+                  - {label: Cena v eurách, name: price, widget: number, value_type: float, step: 0.1}
+      - label: Workshopy
+        name: workshopy
+        file: content/workshopy.json
+        fields:
+          - label: Workshopy
+            name: items
+            widget: list
+            summary: "{{fields.name}}"
+            fields:
+              - {label: Názov, name: name, widget: string}
+              - {label: Dĺžka, name: duration, widget: string}
+              - {label: Cena na osobu v eurách, name: price, widget: number, value_type: float, step: 1}
+      - label: Nastavenia a kontakt
+        name: nastavenia
+        file: content/nastavenia.json
+        fields:
+          - {label: Úvodný text, name: hero_text, widget: text}
+          - {label: Otváracie hodiny, name: hours, widget: text}
+          - {label: Adresa, name: address, widget: string}
+          - {label: Telefón, name: phone, widget: string}
+          - {label: E-mail, name: email, widget: string}
+          - {label: Doprava zadarmo od (eur), name: free_shipping, widget: number, value_type: int}
